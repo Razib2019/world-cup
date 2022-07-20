@@ -670,6 +670,72 @@ footer {
 
 /* Tablet View End Here  */
 /* Mobile View Start From Here  */
+@media only screen and (max-width:688px) {
+
+    /* Header Section Or First Section  */
+    header {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .container {
+        width: 350px;
+        height: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: #161616;
+        border-radius: 15px;
+    }
+
+    .banner-left h1 {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 40px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .banner-left p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .banner-left a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 15px;
+        padding: 10px 15px;
+        background: #DD0000;
+        border-radius: 5px;
+        margin-left: 25px;
+    }
+
+    .banner-left a:hover {
+        text-decoration: none;
+        color: #DD0000;
+        font-size: 15px;
+        padding: 10px 15px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        margin-left: 25px;
+    }
+
+    .fa-play {
+        font-size: 12px;
+    }
+
+    .banner-right img {
+        margin-left: 30px;
+        height: 100%;
+        width: 100%;
+    }
+}
 
 /* Mobile View End Here  */
 /* Media Queries Code Start From Here */
