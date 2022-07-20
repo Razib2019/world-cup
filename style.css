@@ -8,14 +8,14 @@ body {
 
 /* Header Section  */
 header {
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
 
 .container {
-    width: 1321px;
-    height: 646px;
+    width: 1200px;
+    height: 550px;
     background-color: #161616;
     display: flex;
     border-radius: 35px;
@@ -34,16 +34,17 @@ header {
 .header-left h1 {
     font-size: 70px;
     font-weight: 700;
+    line-height: 90px;
     color: #FFFFFF;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
 
 .header-left p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .header-left a {
@@ -51,7 +52,7 @@ header {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 400px;
-    padding: 15px 25px;
+    padding: 15px 20px;
     background: #DD0000;
     border-radius: 5px;
 }
@@ -63,4 +64,5 @@ header {
 
 .header-right img {
     height: 100%;
+    width: 100%;
 }
