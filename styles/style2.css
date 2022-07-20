@@ -69,9 +69,9 @@ header {
     border-radius: 5px;
 }
 
-.fa-greater-than {
+.fa-play {
     font-size: 15px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .banner-right img {
@@ -283,9 +283,9 @@ footer {
         border-radius: 5px;
     }
 
-    .fa-greater-than {
+    .fa-play {
         font-size: 15px;
-        padding-left: 10px;
+        padding-left: 5px;
     }
 
     .banner-right img {
