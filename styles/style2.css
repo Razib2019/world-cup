@@ -58,6 +58,16 @@ header {
     border-radius: 5px;
 }
 
+.banner-left a:hover {
+    text-decoration: none;
+    color: #DD0000;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 10px 15px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
 .fa-greater-than {
     font-size: 15px;
     padding-left: 10px;
@@ -135,43 +145,34 @@ main {
     border-radius: 10px;
 }
 
-.blog-image img {
-    width: 100%;
-}
-
-.blog-details {
-    padding: 10px;
-}
-
-.blog-details a {
-    text-decoration: none;
-    color: #161616;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 3px 15px;
-    border: 1px solid gray;
-    border-radius: 5px;
-}
-
-.blog-details h2 {
-    font-size: 17px;
-    font-weight: 600px;
-}
-
-.blog-info {
+.shedule-image {
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.blog-info .time,
-.comment {
-    font-size: 15px;
-    font-weight: 500;
-    margin-right: 35px;
+.shedule-image h3 {
+    color: #161616;
+    font-size: 16px;
+    font-weight: 700;
 }
 
-.blog-info .clock-time,
-.user-comment {
-    margin-left: 8px;
+.blog h2 {
+    color: #161616;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.blog p {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
 }
 
 /* Footer Section */
