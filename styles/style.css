@@ -782,6 +782,67 @@ footer {
         color: #FFFFFF;
         background-color: #DD0000;
     }
+
+    /* Main Section  */
+
+    .main-section {
+        width: 350px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .blog {
+        width: 350px;
+        height: 360px;
+        border: 1px solid gray;
+        border-radius: 13px;
+    }
+
+    .blog-image img {
+        width: 100%;
+    }
+
+    .blog-details {
+        padding: 10px;
+    }
+
+    .blog-details a {
+        text-decoration: none;
+        color: #161616;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 3px 15px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    .blog-details h2 {
+        font-size: 17px;
+        font-weight: 600px;
+    }
+
+    .blog-info {
+        display: flex;
+    }
+
+    .blog-info .time,
+    .comment {
+        font-size: 15px;
+        font-weight: 500;
+        margin-right: 35px;
+    }
+
+    .blog-info .clock-time,
+    .user-comment {
+        margin-left: 8px;
+    }
 }
 
 /* Mobile View End Here  */
