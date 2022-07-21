@@ -176,6 +176,33 @@ main {
     text-align: center;
 }
 
+/* Extra Button Section  */
+.btn-container {
+    text-align: center;
+    visibility: hidden;
+}
+
+.btn-extra a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 10px 25px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+
+.btn-extra a:hover {
+    text-decoration: none;
+    color: #DD0000;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 10px 25px;
+    background: #FFFFFF;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+
 /* Footer Section */
 footer {
     margin-top: 50px;
@@ -394,6 +421,33 @@ footer {
         text-align: center;
     }
 
+    /* Extra Button Section  */
+    .btn-container {
+        text-align: center;
+        display: none;
+    }
+
+    .btn-extra a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 400px;
+        padding: 10px 25px;
+        background: #DD0000;
+        border-radius: 5px;
+    }
+
+    .btn-extra a:hover {
+        text-decoration: none;
+        color: #DD0000;
+        font-size: 20px;
+        font-weight: 400px;
+        padding: 10px 25px;
+        background: #FFFFFF;
+        border: 1px solid #161616;
+        border-radius: 5px;
+    }
+
     /* Footer Section */
     footer {
         margin-top: 50px;
@@ -609,6 +663,33 @@ footer {
         text-align: center;
     }
 
+    /* Extra Button Section  */
+    .btn-container {
+        text-align: center;
+        visibility: visible;
+    }
+
+    .btn-extra a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 400px;
+        padding: 10px 25px;
+        background: #DD0000;
+        border-radius: 5px;
+    }
+
+    .btn-extra a:hover {
+        text-decoration: none;
+        color: #DD0000;
+        font-size: 20px;
+        font-weight: 400px;
+        padding: 10px 25px;
+        background: #FFFFFF;
+        border: 1px solid #161616;
+        border-radius: 5px;
+    }
+
     /* Footer Section */
     footer {
         margin-top: 50px;
@@ -819,6 +900,33 @@ footer {
         font-size: 20px;
         font-weight: 500;
         text-align: center;
+    }
+
+    /* Extra Button Section  */
+    .btn-container {
+        text-align: center;
+        display: none;
+    }
+
+    .btn-extra a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 400px;
+        padding: 10px 25px;
+        background: #DD0000;
+        border-radius: 5px;
+    }
+
+    .btn-extra a:hover {
+        text-decoration: none;
+        color: #DD0000;
+        font-size: 20px;
+        font-weight: 400px;
+        padding: 10px 25px;
+        background: #FFFFFF;
+        border: 1px solid #161616;
+        border-radius: 5px;
     }
 
     /* Footer Section */
